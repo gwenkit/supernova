@@ -13,3 +13,9 @@ pip list
 deactivate
 ```
 
+```
+source ./venv/bin/activate
+python -m pip install Django
+```
+
+

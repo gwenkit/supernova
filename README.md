@@ -21,6 +21,14 @@ python -m django --version
 
 ```
 django-admin startproject supernova
+cd supernova
+python manage.py runserver
 ```
+
+```
+python manage.py startapp polls
+python manage.py runserver
+```
+
 
 

@@ -16,6 +16,11 @@ deactivate
 ```
 source ./venv/bin/activate
 python -m pip install Django
+python -m django --version
+```
+
+```
+django-admin startproject supernova
 ```
 
 

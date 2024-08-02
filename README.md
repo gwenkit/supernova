@@ -2,6 +2,11 @@
 
 
 ```
+git clone https://github.com/gwenkit/supernova.git
+```
+
+```
+cd supernova
 pyenv local 3.12.4
 python -m venv venv
 grep venv .gitignore

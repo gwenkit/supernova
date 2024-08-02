@@ -2,6 +2,7 @@
 
 
 ```
+pyenv local 3.12.4
 python -m venv venv
 grep venv .gitignore
 source ./venv/bin/activate
@@ -14,6 +15,7 @@ deactivate
 source ./venv/bin/activate
 python -m pip install Django
 python -m django --version
+pip freeze > requirements.txt
 ```
 
 ```

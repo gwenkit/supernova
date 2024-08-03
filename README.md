@@ -45,13 +45,16 @@ psql supernova
 ```
 python manage.py migrate
 file db.sqlite3
-python manage.py makemigrations polls
-python manage.py sqlmigrate polls 0001
-python manage.py migrate
 ```
 
 ```
 python manage.py createsuperuser
+```
+
+```
+python manage.py makemigrations polls
+python manage.py sqlmigrate polls 0001
+python manage.py migrate
 ```
 
 

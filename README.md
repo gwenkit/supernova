@@ -9,6 +9,7 @@ source ./venv/bin/activate
 python manage.py migrate
 python manage.py shell
 python manage.py test
+python manage.py runserver
 deactivate
 ```
 
@@ -101,5 +102,4 @@ python manage.py migrate
 python manage.py shell
 python manage.py test polls
 ```
-
 

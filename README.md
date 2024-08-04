@@ -47,6 +47,7 @@ pip install --upgrade pip
 source ./venv/bin/activate
 python -m pip install Django
 python -m django --version
+python -m pip install django-debug-toolbar
 pip freeze > requirements.txt
 ```
 

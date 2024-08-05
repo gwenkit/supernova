@@ -89,6 +89,15 @@ file db.sqlite3
 python manage.py createsuperuser
 ```
 
+### once(djangorestframework)
+
+```
+pip install djangorestframework
+pip install markdown
+pip install django-filter
+pip freeze > requirements.txt
+```
+
 ### migrate
 
 ```

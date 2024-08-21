@@ -6,6 +6,7 @@
 ```
 cd supernova
 source ./venv/bin/activate
+cd supernova
 python manage.py migrate
 python manage.py shell
 python manage.py test
@@ -38,13 +39,12 @@ deactivate
 ### once(env)
 
 ```
-pyenv local 3.12.4
 cd supernova
+pyenv local 3.12.4
 python -m venv venv
 grep venv .gitignore
 source ./venv/bin/activate
 pip install --upgrade pip
-source ./venv/bin/activate
 python -m pip install Django
 python -m django --version
 python -m pip install django-debug-toolbar
